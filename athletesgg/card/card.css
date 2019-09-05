@@ -1,0 +1,10 @@
+#frame {
+    height: 1080px;
+    width: 1920px;
+    display: none;
+}
+
+#card {
+    height: 100%;
+    width: 100%;
+}

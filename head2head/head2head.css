@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('assets/Nexa-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Nexa-Light';
+    src: url('assets/Nexa-Light.otf');
+}
+
+* {
+    overflow: hidden;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Nexa-Bold';
+    text-transform: uppercase;
+}
+
+.frame {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.bars {
+    position: absolute;
+}
+
+#top-bar {
+    z-index: 1;
+    position: absolute;
+}
+
+#bottom-bar {
+    z-index: 3;
+    position: absolute;
+}
+
+#content {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    z-index: 5;
+}
+
+.sponsors {
+    font-family: 'Nexa-Light';
+}
+
+#content div {
+    position: absolute;
+}
+
+.middle-content {
+    font-style: italic;
+    overflow: auto;
+}
+
+/*
+content css
+*/
+
+#name1 {
+    left: 470px;
+    top: 53px;
+    width: 340px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#name2 {
+    left: 1100px;
+    top: 53px;
+    width: 340px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#score1 {
+    left: 852px;
+    top: 53px;
+    width: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#score2 {
+    left: 1041px;
+    top: 53px;
+    width: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#date {
+    text-align: right;
+    width: 175px;
+    left: 700px;
+    top: 108px;
+    padding-right: 3px;
+}
+
+#location {
+    text-align: left;
+    width: 175px;
+    left: 1038px;
+    top: 108px;
+}
+
+#bracket {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 996px;
+    width: 275px;
+    text-align: center;
+}
+
+#twitter1 {
+    display: none;
+    left: 470px;
+    top: 53px;
+    font-size: 35px;
+    width: 340px;
+    text-align: center;
+}
+
+#twitter2 {
+    display: none;
+    left: 1100px;
+    top: 53px;
+    font-size: 35px;
+    text-align: center;
+}

@@ -8,15 +8,21 @@
     src: url('assets/Nexa-Light.otf');
 }
 
+* {
+    overflow: hidden;
+}
+
 body {
     color: #ffffff;
     font-family: 'Nexa-Bold';
+    text-transform: uppercase;
 }
 
 .frame {
     position: relative;
     width: 1920px;
     height: 1080px;
+    overflow: hidden;
 }
 
 .bars {
@@ -24,18 +30,22 @@ body {
 }
 
 #top-bar {
-    top: -15px;
+    top: -100px;
     z-index: 3;
 }
 
+#bottom-bar {
+    top: 125px;
+}
+
 #middle-bar {
-    top: -50px;
+    top: -90px;
     z-index: 2;
 }
 
 #logo {
     z-index: 4;
-    top: -30px;
+    top: -100px;
 }
 
 #content {
@@ -55,6 +65,7 @@ body {
 
 .middle-content {
     font-style: italic;
+    overflow: auto;
 }
 
 /*
@@ -98,6 +109,7 @@ content css
     width: 175px;
     left: 700px;
     top: 108px;
+    padding-right: 3px;
 }
 
 #location {
@@ -116,3 +128,19 @@ content css
     text-align: center;
 }
 
+#twitter1 {
+    display: none;
+    left: 470px;
+    top: 53px;
+    font-size: 35px;
+    width: 340px;
+    text-align: center;
+}
+
+#twitter2 {
+    display: none;
+    left: 1100px;
+    top: 53px;
+    font-size: 35px;
+    text-align: center;
+}

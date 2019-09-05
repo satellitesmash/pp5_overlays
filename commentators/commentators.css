@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('assets/Nexa-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Nexa-Light';
+    src: url('assets/Nexa-Light.otf');
+}
+
+* {
+    overflow: hidden;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Nexa-Bold';
+    text-transform: uppercase;
+}
+
+.frame {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    top: 200px;
+}
+
+/*
+content css
+*/
+#commName1 {
+    position: absolute;
+    left: 440px;
+    top: 790px;
+    width: 340px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#commName2 {
+    position: absolute;
+    left: 1145px;
+    top: 790px;
+    width: 340px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#commTwitter1 {
+    position: absolute;
+    left: 640px;
+    top: 850px;
+    width: 220px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+#commTwitter2 {
+    position: absolute;
+    left: 1065px;
+    top: 850px;
+    width: 220px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
